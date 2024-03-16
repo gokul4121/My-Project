@@ -1,0 +1,36 @@
+<div class="container" style="max-width:400px">
+    <form (ngSubmit)="Update(ulist.id,ulist)">
+        <h2>Edit User</h2>
+        <p>
+        <label>Name</label>
+        <input type="text" name="name" [(ngModel)]="ulist.name" class="form-control">
+        </p>
+        <p>
+        <label>Department</label>
+        <input type="text"  name="dept" [(ngModel)]="ulist.dept"  class="form-control">
+        </p>
+        <p>
+        <label>Age</label>
+        <input type="text"  name="age" [(ngModel)]="ulist.age"  class="form-control">
+        </p>
+
+        <p>
+        <label>Experience</label>
+        <input type="text"  name="poy" [(ngModel)]="ulist.poy"  class="form-control">
+        </p>
+        <p>
+         <label>Email</label>
+        <input type="text" class="form-control" name="email" [(ngModel)]="ulist.email">
+        </p>
+        <p>
+        <label>Phone Number</label>
+        <input type="text" class="form-control" name="phone" [(ngModel)]="ulist.phone">
+        </p>
+        <p>
+        <input type="submit" value="Update" class="btn btn-primary" >&nbsp;
+        <input type="button" value="User'list" class="btn btn-primary" routerLink="/list">
+            </p>
+</form>
+</div>
+
+

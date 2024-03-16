@@ -1,0 +1,36 @@
+<div class="container" style="max-width:400px">
+    <form (ngSubmit)="addstudent()" autocomplete="off">
+         
+        <h2>Add User</h2>
+        <p>
+        <label>Name</label>
+        <input type="text"  name="name" [(ngModel)]="add.name" class="form-control">
+        </p>
+        <p>
+        <label>Department</label>
+        <input type="text"  name="dept" [(ngModel)]="add.dept" class="form-control">
+        </p>
+        <p>
+        <label>Experience</label>
+        <input type="text"  name="poy" [(ngModel)]="add.poy" class="form-control">
+        </p>
+        <p>
+            <label>Age</label>     
+            <input type="text"  name="poy" [(ngModel)]="add.age" class="form-control">
+            </p>
+        <p>
+         <label>Email</label>
+        <input type="text"name="email" [(ngModel)]="add.email" class="form-control">
+        </p>
+        <p>
+        <label>Phone Number</label>
+        <input type="text" name="phone" [(ngModel)]="add.phone" class="form-control">
+        </p>
+
+        <p>
+        <input type="submit" value="Add" class="btn btn-primary">&nbsp;
+        <input type="button" value="Users list" class="btn btn-primary" routerLink="/list">
+        </p>
+</form>
+</div>
+

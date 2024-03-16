@@ -1,0 +1,49 @@
+{
+  "users": [
+    {
+      "name": "Ram",
+      "dept": "It&support ",
+      "age": "23",
+      "poy": "1",
+      "email": "ramya@gamil.com",
+      "phone": "9756345566",
+      "id": 1
+    },
+    {
+      "name": "Hari Prasanth ",
+      "dept": "php developer",
+      "age": "26",
+      "poy": "4",
+      "email": "harimunusamy1998@gmail.com",
+      "phone": "9786568756",
+      "id": 2
+    },
+    {
+      "name": "Mohan",
+      "dept": "sales",
+      "age": "24",
+      "poy": "3",
+      "email": "mohanpraksah@gmail.com",
+      "phone": "8697456778",
+      "id": 3
+    },
+    {
+      "name": "subash",
+      "dept": "Auto Mobile",
+      "age": "23",
+      "poy": "4",
+      "email": "subash@gmail.com",
+      "phone": "8976756476",
+      "id": 4
+    },
+    {
+      "name": "Ranjith ",
+      "dept": "developer",
+      "age": "23",
+      "poy": "2",
+      "email": "ranjithmg2001@gmail.com",
+      "phone": "6374681412",
+      "id": 5
+    }
+  ]
+}
